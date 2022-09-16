@@ -29,11 +29,14 @@
 
 	</properties>
 	
-	<repository>
-	      <id>nexus</id>
-	      <name>nexus proxy repo</name>
-	      <url>http://3.83.68.228:8081/repository/Toyota-proxy/</url>
-	    </repository>
+	<repositories>
+    <repository> 
+      <id>nexus</id>
+      <name>nexus proxy repo</name>
+      <url>http://3.83.68.228:8081/repository/Toyota-proxy/</url>
+    </repository>
+ </repositories>
+	
 
 	<dependencies>
 		
